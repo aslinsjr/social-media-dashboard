@@ -31,7 +31,7 @@
     background-color: hsl(228, 28%, 20%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .overview-box {
         width: 100%;
     }
