@@ -23,8 +23,8 @@ Frontend Mentor challenges help improve my coding skills by building realistic p
 
 ### Links
 
-- Solution URL: [Repository](https://your-solution-url.com)
-- Live Site URL: [Page](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/aslinsjr/social-media-dashboard)
+- Live Site URL: [Page](https://social-media-dashboard-eight-eosin.vercel.app/)
 
 ## My process
 
@@ -34,7 +34,7 @@ Frontend Mentor challenges help improve my coding skills by building realistic p
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- JavaScript
+- JReact
 
 ### What I learned
 
