@@ -1,0 +1,51 @@
+.total-data-box {
+    width: 15vw;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(227, 47%, 96%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.followers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#followers-number {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#sub-description {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 250;
+    letter-spacing: 0.2rem;
+}
+
+.today-followers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .total-data-box {
+        width: 100%;
+        min-height: auto;
+        margin: 0.5rem 0;
+    }
+}

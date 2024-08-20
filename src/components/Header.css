@@ -1,0 +1,65 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dark-light-btn {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dark-light-btn button {
+    width: 40px;
+    height: 20px;
+    background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%)) ;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: 15%;
+}
+
+.on-off {
+    left: 60%;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .title-container {
+        width: 100%;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid black;
+    }
+
+    .title-container h1 {
+        font-size: 1.8rem;
+        
+    }
+
+    .dark-light-btn {
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+}

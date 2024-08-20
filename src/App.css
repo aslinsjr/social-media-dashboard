@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 20vh;
+    transition: 0.5s;
+    color: hsl(230, 17%, 14%);
+}
+
+.total-data-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.overview-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+.dark-theme {
+    background-color: hsl(230, 17%, 14%);
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .total-data-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .overview-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
